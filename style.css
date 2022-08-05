@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 20px 100px 80px 100px;
+}
+
+.header a {
+    color: grey;
+    size: 18px;
+    text-decoration: none;
+}
+
+.right-header {
+    gap: 15px;
+    display: flex;
+}
+
+.left-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.hero-main {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 0px 100px 80px 100px;
+    gap: 60px;
+    height: 300px;
+}
+
+.left-hero {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    max-width: 50%;
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+.rightHero {
+    display: flex;
+    background-color: grey;
+    flex: 1;
+    justify-content: center;
+}
+
+.image-placeholder {
+    height: 215px;
+}
+
+.info-region {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px 80px 100px;
+    gap: 40px;
+}
+
+.randomTitle {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.boxContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.boxCase {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.squircle {
+  border: 2px solid #3882F6;
+  height: 150px;
+  width: 150px;
+  border-radius: 25px;
+  flex: 1 1 auto;
+}
+
+.squircleText {
+    text-align: center;
+}
+
+.quoteRegion {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 47px 200px 70px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+    padding: 20px;
+}
+
