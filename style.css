@@ -138,3 +138,52 @@ button {
     padding: 20px;
 }
 
+.signUp-region {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 200px 70px 200px;
+}
+
+.modalContainer {
+    background-color: #3882F6;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 35px;
+    padding: 30px 70px 30px 70px;
+}
+
+.modalLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modalTitle {
+    font-weight: 600;
+}
+
+.modalRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.sgup {     
+    text-align: start;
+    border-color: white;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px 100px 30px 100px;
+}
